@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9DF2A461A98B3EE00E1A202 /* cordic32.c in Sources */ = {isa = PBXBuildFile; fileRef = A9DF2A441A98B3EE00E1A202 /* cordic32.c */; };
 		A9FFCC461A86625E0074D95E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9FFCC451A86625E0074D95E /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A9DF2A441A98B3EE00E1A202 /* cordic32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cordic32.c; sourceTree = "<group>"; };
+		A9DF2A451A98B3EE00E1A202 /* cordic32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cordic32.h; sourceTree = "<group>"; };
 		A9FFCC421A86625E0074D95E /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FFCC451A86625E0074D95E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A9FFCC451A86625E0074D95E /* main.cpp */,
+				A9DF2A441A98B3EE00E1A202 /* cordic32.c */,
+				A9DF2A451A98B3EE00E1A202 /* cordic32.h */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9DF2A461A98B3EE00E1A202 /* cordic32.c in Sources */,
 				A9FFCC461A86625E0074D95E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +238,7 @@
 				A9FFCC4B1A86625E0074D95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
