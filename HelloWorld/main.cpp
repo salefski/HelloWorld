@@ -100,6 +100,6 @@ int main(int argc, const char * argv[]) {
     makeRandomArray(a,10);
     printArray(a,10);
     insertionSort(a,10);
-    printArray(a,10);s
+    printArray(a,10);
     return 0;
 }
